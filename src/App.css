@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.cosas{
+  background-color: rgb(164, 164, 197);
+}
+body{
+    background-image: url(./images/tocho.jpeg);
+    background-color: #000000;
+    background-size: 50%;
+    background-attachment: fixed;
+}
