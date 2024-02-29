@@ -6,20 +6,20 @@ import Equipos from "./componentes/Equipos";
 import Error from "./componentes/Error";
 import Jugadores from "./componentes/Jugadores";
 import Posiciones from './componentes/posiciones';
-
+import Home from "./componentes/Home";
 
 function App() {
   return (
     <div>
-      <h1>Routes</h1>
       <Routes>
-        <Route path='/' element={<Layout />} />
+<        Route path='/' element={<Layout />}>
         <Route path='about' element={<About />} />
+        <Route path='/' element={<Home />} />
         <Route path='equipos' element={<Equipos />} />
         <Route path='*' element={<Error />} />
         <Route path='jugadores' element={<Jugadores />} />
         <Route path='posiciones' element={<Posiciones />} />
-
+        </ Route>
 
       </Routes>
     </div>

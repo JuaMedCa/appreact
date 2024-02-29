@@ -1,21 +1,29 @@
 import { Outlet, Link } from "react-router-dom"; 
+import Carrusel from "./Carrusel"
+import React from "react";
+
 
 const Layout = () =>{
     return <div>
+        
         <nav>
-            <ul class = "cosas">
-              
-                    <Link to="/" >Home</Link>
-              
-                    <Link to="/equipos">Equipos</Link>
-               
-                    <Link to="/jugadores">Jugadores</Link>
-         
-                    <Link to="/posiciones">Tabla de posiciones</Link>
-            </ul>
+                    <a>
+                        <Link to="/">Inicio</Link>
+                    </a>
+                    <a>
+                        <Link to="/equipos">Equipos</Link>
+                    </a>
+                    <a>
+                        <Link to="/jugadores">Jugadores</Link>
+                    </a>
+                    <a>
+                        <Link to="/posiciones">Posiciones</Link>
+                    </a>
+                    <div className="animation start-home"></div>
+            
         </nav>
-        <hr />
         <Outlet />
     </div>
+    
 }
 export default Layout; 

@@ -1,4 +1,6 @@
 const Posiciones = () =>{
-    return <h1>Posiciones</h1>
+    return <div>
+        <h1>Posiciones</h1>
+        </div>
 }
 export default Posiciones;
