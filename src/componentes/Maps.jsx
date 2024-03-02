@@ -28,7 +28,16 @@ class Maps extends Component {
         );
     }
 }
-
 export default Maps;
+/*window.google = window.google || {};
+google.maps = google.maps || {};
+(function() {
+  
+  var modules = google.maps.modules = {};
+  google.maps.__gjsload__ = function(name, text) {
+    modules[name] = text;
+  }; */
+
+  /* no le pongo lod emas por que mi compu no lo aguanto pero si quiere se lo enseño en clase esque si era un chorro*/
 
 
