@@ -6,17 +6,18 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credential
 
 class Maps extends Component {
     render() {
-        const defaultCenter = { lat: 28.625310300832567, lng: -106.0200208914614 };
+        const defaultCenter = { lat: 28.658816710507057, lng: -106.08614547922231 };
 
         const WrappedMap = withScriptjs(withGoogleMap((props) => (
             <GoogleMap
                 defaultZoom={18}
                 defaultCenter={defaultCenter}
-                center={defaultCenter} // Center the map
+                center={defaultCenter} 
             />
         )));
 
         return (
+            
             <div style={{ height: "300px", width: "1000px", margin: "auto" }}>
                 <WrappedMap
                     googleMapURL={mapURL}

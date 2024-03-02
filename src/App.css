@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -39,7 +35,6 @@
 
 body{
     background-image: url(./images/tocho.jpeg);
-    background-color: #000000;
     background-size: 50%;
     background-attachment: fixed;
 }
@@ -96,12 +91,12 @@ a:nth-child(5) {
 nav .start-home, a:nth-child(1):hover~.animation {
 	width: 100px;
 	left: 0;
-	background-color: #1abc9c;
+	background-color: #2e2c99;
 }
 nav .start-about, a:nth-child(2):hover~.animation {
 	width: 110px;
 	left: 100px;
-	background-color: #e74c3c;
+	background-color: #a71dd1;
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
 	width: 100px;
@@ -121,13 +116,15 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 
 h1 {
-	text-align: center;
 	margin: 40px 0 40px;
-	text-align: center;
 	font-size: 30px;
-	color: #ecf0f1;
-	text-shadow: 2px 2px 4px #000000;
+	color: #000000;
+	text-shadow: 2px 2px 4px #421acf;
 	font-family: 'Cherry Swash', cursive;
+  background-color: #352474;
+  border-radius: 100px;
+  width: 600px;
+  text-align: center;
 }
 
 p {
@@ -179,3 +176,7 @@ h2{
 .tab{
   text-align: center;
 }
+
+
+
+

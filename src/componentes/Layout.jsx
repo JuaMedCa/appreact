@@ -1,5 +1,4 @@
 import { Outlet, Link } from "react-router-dom"; 
-import Carrusel from "./Carrusel"
 import React from "react";
 
 
