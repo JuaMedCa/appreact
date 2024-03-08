@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importar el archivo CSS de Bootstrap
+
 
 function TablaPosiciones() {
   const equipos = [
@@ -17,10 +19,9 @@ function TablaPosiciones() {
   equipos.sort((a, b) => b.puntos - a.puntos);
 
   return (
-    <div>
-        <center>
-        <h2>Tabla de Posiciones</h2>
-      <table style={{ color: 'white' }}>
+    <div className="container">
+      <center><h2 className="text-center texto-pos">Tabla de Posiciones</h2></center>
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>Posición</th>
@@ -40,9 +41,6 @@ function TablaPosiciones() {
           ))}
         </tbody>
       </table>
-
-        </center>
-      
     </div>
   );
 }

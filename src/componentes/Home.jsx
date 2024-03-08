@@ -8,6 +8,8 @@ const Home = () =>{
     return <div>
         <br />
         <Carrusel />
+        <br />
+        <br />
         <center>
         <h1 >Locacion Del Campo</h1>
         </center>

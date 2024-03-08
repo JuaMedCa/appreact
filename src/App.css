@@ -177,6 +177,20 @@ h2{
   text-align: center;
 }
 
+.texto-pos{
+	margin: 40px 0 40px;
+	font-size: 30px;
+	color: #000000;
+	text-shadow: 2px 2px 4px #421acf;
+	font-family: 'Cherry Swash', cursive;
+  background-color: #352474;
+  border-radius: 100px;
+  width: 600px;
+  text-align: center;
+}
+
+
+
 
 
 
